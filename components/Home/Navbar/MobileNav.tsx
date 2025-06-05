@@ -26,19 +26,16 @@ const MobileNav = ({ closeNav, showNav }: Props) => {
             key={link.id}
             className="group relative px-6 py-4 rounded-xl transition-all duration-300 hover:bg-white/10 hover:shadow-md">
             <div className="flex items-center space-x-4">
-              {/* Optional: Add icon placeholders here */}
-              {/* <div className="w-6 h-6 bg-white/30 rounded-md"></div> */}
               <p className="text-white text-xl font-medium tracking-normal transition-all duration-300 group-hover:translate-x-2 group-hover:text-blue-100">
                 {link.title}
               </p>
             </div>
-            {/* Animated underline and accent bar */}
             <span className="absolute inset-x-6 bottom-3 h-[2px] bg-blue-400 transition-all duration-500 origin-left transform scale-x-0 group-hover:scale-x-90" />
             <span className="absolute left-0 top-1/2 w-1 h-8 -translate-y-1/2 bg-white rounded-r-full opacity-0 group-hover:opacity-100 transition-all duration-500" />
           </a>
         ))}
 
-        {/* Optional: Add a close button or other navigation elements */}
+        {/* Close Button */}
         <button
           onClick={closeNav}
           className="absolute top-6 right-6 p-2 text-white/70 hover:text-white">

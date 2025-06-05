@@ -109,3 +109,24 @@ export const clientsFeedback = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.",
   },
 ];
+
+export const heroImages = [
+  {
+    src: "/images/hero1.jpg",
+    alt: "Woman standing on a rock by the sea at sunset",
+    title: "Explore beauty of",
+    description: "Get unforgettable pleasure with us",
+  },
+  {
+    src: "/images/hero2.jpg",
+    alt: "Beautiful mountain landscape at sunrise",
+    title: "Conquer the peaks",
+    description: "Adventure that touches your soul",
+  },
+  {
+    src: "/images/hero3.jpg",
+    alt: "Tropical beach with palm trees",
+    title: "Urban elegance",
+    description: "Discover stories behind skylines",
+  },
+];
